@@ -1,13 +1,23 @@
-import { Team } from '../models';
+import { Teams } from "../models";
 
-interface Props { //Tipeamos las props del componente
-    teams: Team[]
+interface Props {
+  //Tipeamos las props del componente
+  teams: Teams;
 }
 
-
-export const TeamList = () => {
+export const TeamList = ({ teams }: Props) => {
+    
   return (
-    <div>TeamList</div>
-  )
-}
+    <div>
+        {teams?.squad.map( player => {
+            return(
+                <div>
+                    {player.name}
+                </div>
+            )
+        })}
+    </div>
+  );
+};
+
 

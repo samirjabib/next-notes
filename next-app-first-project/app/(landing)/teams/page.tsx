@@ -1,13 +1,11 @@
+import { TeamList } from './components';
 import { getTeams } from './services';
 
-export default async function Page() {
+export default async function Teams() {
     const data = await getTeams()
-    console.log(data)
     return(
         <section>
-            <h1 className="">
-                {JSON.stringify(data)}
-            </h1>
+            <TeamList teams={data}/>
         </section>
     )
 }
