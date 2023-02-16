@@ -1,0 +1,59 @@
+Rendering
+
+    Formas de Rendering
+
+    - CSR
+    - SSR
+    - SSGc
+    - ISSG
+
+
+
+    CSR 
+
+    Client server Rendering
+        
+        Esta es la forma de rendering clasica donde el cliente hace todo.
+
+            1. El servidor envia la respuesta al navegador
+            2. el navegador descarga los archivos js
+            3. el navegador ejecuta React & o framework
+            4. La pagina es visible y se puede interactuar.
+
+    SSR 
+
+    Server Side Rendering
+
+        1.El servidor se encarga de todo, hace las peticiones 
+        2. Envia al browser un index.html sin informacion al browser  y el buscador va a descargar el js (Este proceso se llama hydratacion)
+        3. el Browser empieza a interactuar con React. 
+        4. La pagina ahora es visible e interactuable.
+
+    SSG
+
+    Static Side Generation
+
+        1. El servidor ya tiene todo renderizado, el contenido , la data, el codigo, y al hacer el render ya los servicios generan  
+            sitios webs estaticos.
+        
+        1.Crear el SSG
+        2.Enviar al hosting
+        3. Generar paginas estaticas.
+        4. Usuario.
+
+
+        Es buena para sitios que sus datos no son tan interactivos. 
+
+    ISSG
+
+    Incremental Static Site Generation
+
+        El static side generation se va a generar en un intervalo de tiempo, entonces lo que vamos a hacer es un snapshot de la web dependiendo
+        cada cierto tiempo. 
+
+
+
+    Esta esta perfecta para aplicaciones web
+
+SEO - Search Enginner Optimization
+

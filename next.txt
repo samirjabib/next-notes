@@ -1,0 +1,16 @@
+¿ Ventajas de usar Next.js ?
+
+    1. La primera ventaja de usar Next.js es su popularidad. 
+    2. Build muy rapidos. 
+    3. Lazy loading , code Splitting desde el principio. 
+    4. Es muy comodo para programar ya que al ser un framework nos da un set de herramientas.
+    5. Tiene mejor SEO.
+    6. Es un framework Opinado, esto quiere decir que la comunidad elige la manera de solucionar cosas.
+    7. Nada de configuracion
+
+Cuando aplicar NEXT.js
+
+    Cuando se tenga necesidad de SEO.
+    Proyectos pequeños
+    Landing Page. 
+
